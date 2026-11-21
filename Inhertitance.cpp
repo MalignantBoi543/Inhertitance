@@ -24,7 +24,7 @@ int main() {
     getline(cin, manufacturer);
     cout << "Enter the year built: ";
     cin >> yearBuilt;
-    cin.ignore(); // Clear newline from input buffer before next getline
+    cin.ignore(); 
 
     Vehicle vehicle(manufacturer, yearBuilt);
     vehicle.displayInfo();
@@ -38,7 +38,7 @@ int main() {
     cin >> yearBuilt;
     cout << "Enter the number of doors: ";
     cin >> numDoors;
-    cin.ignore(); // Clear newline from input buffer before next getline
+    cin.ignore(); 
 
     Car car(manufacturer, yearBuilt, numDoors);
     car.displayInfo();
